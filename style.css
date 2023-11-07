@@ -6,32 +6,40 @@
 html{
     font-size:62.5%;
 }
-
 body{
     margin: 0;
     padding: 0;
-   width: 100%;
-   height: 100%;
    position: relative;
 }
 .menu {
   text-align: right;
-  width: 97.6%;
-      background: linear-gradient(15deg, rgb(54, 74, 224), rgb(3, 3, 80)25%, rgb(220, 234, 220)60%);
-  height: 4rem;
+  width: 100%;
+  background: linear-gradient(15deg, rgb(54, 74, 224), rgb(3, 3, 80)25%, rgb(220, 234, 220)60%);
+  height: 8rem;
   position: fixed;
   top: 1rem;
   border: none;
   z-index: -1;
 }
-
+details{
+  position: absolute;
+  top:2.9rem;
+  right: 24rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(4, 4, 4);
+  cursor: pointer;
+   
+}
+.su-details{
+   background: linear-gradient(15deg, rgb(54, 74, 224), rgb(3, 3, 80)5%, rgb(220, 234, 220)60%);
+}
 .menu ul {
   list-style: none;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding-right: 2rem;
 }
 .menu ul li{
-  font-size: 1rem;
   display: inline-block;
   padding-right: 0 5rem 0 0;
   margin-right: 1rem;
@@ -52,30 +60,30 @@ li a:hover{
 
 .header{
     margin: 1rem auto;
-    width: 98%;
-     height: 12%;
-     max-height: 12rem;
-     min-height: 8rem;
-    border: 2px solid rgb(232, 232, 247);
-    z-index: 2;
+    width: 100vw;
+    z-index: 4;
     position: relative;
     background: linear-gradient(15deg, rgb(54, 74, 224), rgb(3, 3, 80)25%, rgb(220, 227, 220)60%);
-    border-radius: 5px;
 }
 .title{
     position: absolute;
     top: 8%;
     left: 10rem;
-    font-size: 4rem;
+    font-size: 3rem;
     color: rgb(238, 238, 245);
 }
 .div-p{
     position: absolute;
-    top: 70%;
-    left: 9.5%;
+    top: 5rem;
+    left: 10rem;
     color: rgb(252, 252, 252);
     font-style: italic;
     font-size: 1.4rem;
+}
+.header-figure{
+    width: 5%;
+    height: 100%;
+    min-width: 8rem;
 }
 .div-img{
     width: 100%;
@@ -83,21 +91,22 @@ li a:hover{
     background-color: rgb(212, 212, 221);
     border-radius: 50%;
 }
-
-.header-figure{
-    width: 5%;
-    height: 100%;
-    min-width: 6rem;
-}
 .header-img{
   margin-top: 2.5%;
   margin-left: 3.8%;
-   width:93%;
-   height: 93%;
-   border-radius: 50%;
-   
+  width:93%;
+  height: 93%;
+  border-radius: 50%;
+
 }
-@media(max-width:907px){
+.freeCodeCamp{
+    z-index: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+@media(max-width:px){
   .menu ul li a{
     font-size: 1.5rem;
   }
@@ -220,47 +229,54 @@ li a:hover{
   margin-top: 3rem;
   padding: 5rem;
   background: linear-gradient(5deg, rgb(54, 74, 224), rgba(5, 5, 140, 0.922)60%, rgb(220, 227, 220));
+  border-radius: 1rem;
 }
-h2{
-  font-size: 8rem;
+.section-1 h2{
+  font-size: 5rem;
   color: blanchedalmond;
+  
 }
 .my-testimony{
   color: rgb(255, 255, 255);
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: left;
   margin-top: 2rem;
-  line-height: 1.3;
+  line-height: 1.5;
   font-weight: 500;
-  font-family:cursive;
-}
-.freeCodeCamp{
-  font-weight: 600;
-  color: rgb(255, 255, 255);
+  font-style: italic;
+  padding: 1rem 6rem;
+  border: 1px solid rgb(249, 249, 250);
 }
 main{
-    margin:3.5rem
+    margin:3.5rem;
+}
+.section-2 h3{
+  font-size: 4.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 10rem;
 }
 .section-2{
-  margin: 10rem auto;
+  margin-top: 7rem;
 }
-.my-certificate{
+.certificate-hackaboss{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  max-width: 170rem;
-  margin: 0 auto;
-  padding: 20px 10px;
- 
+  gap: 5rem;
+  max-width: 140rem;
+  margin: 0 auto 10rem;
 }
-.my-certificate img{
+.section-2-img{
   width: 100%;
-  max-width: 80rem;
-  max-height: 65rem;
-  object-fit: cover;
+  max-width: 55rem;
+  height: 30rem; 
+}
+
+.dead-project{
+  
 }
 .miVideo{
     position: fixed;
@@ -269,6 +285,6 @@ main{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 0;
+    z-index: -1;
     mix-blend-mode: overlay;
 }
