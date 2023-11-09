@@ -60,7 +60,7 @@ li a:hover{
 }
 
 .header{
-    margin: 1rem auto;
+    margin: 1rem  auto;
     width: 100vw;
     z-index: 4;
     position: relative;
@@ -85,6 +85,7 @@ li a:hover{
     width: 5%;
     height: 100%;
     min-width: 8rem;
+    margin-left: 0.6rem;
 }
 .div-img{
     width: 100%;
@@ -190,7 +191,7 @@ font-size:35%;
 .section-1{
   text-align: center;
   margin-top: 3rem;
-  padding: 5rem;
+  padding: 1rem;
   background: linear-gradient(5deg, rgb(54, 74, 224), rgba(5, 5, 140, 0.922)60%, rgb(220, 227, 220));
   border-radius: 1rem;
 }
@@ -207,7 +208,7 @@ font-size:35%;
   line-height: 1.5;
   font-weight: 500;
   font-style: italic;
-  padding: 1rem 6rem;
+  padding: 1rem 2rem;
   border: 0.1px solid rgb(249, 249, 250);
 }
 main{
