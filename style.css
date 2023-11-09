@@ -160,8 +160,15 @@ main .sections h3, .sections .h4, .sections .h5{
 footer p{
   font-size: 1.5rem;
 }
-.contacto ul li{
-  margin-right: -1.5rem;
+.miVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    mix-blend-mode: overlay;
 }
 } 
 
@@ -169,12 +176,35 @@ footer p{
  html{
 font-size: 40%;
  }
+ .miVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    mix-blend-mode: overlay;
+}
 }
 @media(max-width:320px){
  html{
 font-size:35%;
  }
 }
+
+ .miVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    mix-blend-mode: overlay;
+}
+
+
 
 .section-1{
   text-align: center;
@@ -299,14 +329,20 @@ main{
   margin: 10rem 0 4rem ;
 }
 .contacto{
-  display: inline;
-  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 .sections .contacto{
   margin: 0 auto;
 }
 .contacto ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 1.5rem;
  list-style: none;
   background-color: rgba(243, 242, 242, 0.225);
@@ -314,7 +350,7 @@ main{
 }
 .contacto ul li{
   display: inline-block;
-  margin-left: 3rem;
+  margin-left: 0.5rem;
   
 }
 .contacto li a{ 
