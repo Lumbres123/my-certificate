@@ -139,10 +139,10 @@ li a:hover{
 font-size: 45%;
  }
 .header{
-background: linear-gradient(45deg, rgb(47, 60, 160), rgb(40, 40, 127)25%, rgb(50, 83, 126)60%);
+background: linear-gradient(65deg, rgb(91, 104, 204), rgb(99, 99, 205)15%, rgb(50, 83, 126)60%);
 }
 .menu {
-  background: linear-gradient(15deg, rgb(4, 18, 122), rgb(3, 3, 80)25%, rgb(43, 63, 178)60%);
+  background: linear-gradient(45deg, rgb(45, 59, 163), rgb(64, 64, 159)45%, rgb(79, 98, 205)60%);
 }
 .menu ul, details{
   margin-right: -2rem;
@@ -160,6 +160,7 @@ main .section-1 h2{
 }
 .title{
   font-size: 2.5rem;
+  color: white;
 }
 main .sections h3, .sections .h4, .sections .h5{
   font-size: 3rem;
