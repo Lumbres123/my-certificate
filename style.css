@@ -183,8 +183,12 @@ font-size:35%;
     height: 100%;
     object-fit: cover;
     z-index: 0;
-    mix-blend-mode: overlay;
 }
+ @media screen and (max-width: 768px) {
+            .video-background {
+                object-fit: contain;
+            }
+        }
 
 
 
